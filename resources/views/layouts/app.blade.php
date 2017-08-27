@@ -12,6 +12,9 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+    
+    <script src="https://use.fontawesome.com/af83b995c1.js"></script>
 </head>
 <body>
     <div id="app">
@@ -76,5 +79,40 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/jquery.flip.js') }}"></script>
+    <script type="text/javascript">
+        $( document ).ready(function() {
+            $('.selection_tile').fadeIn(1100).delay(2000);
+            if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+                $("#pantry").flip({
+                    trigger: 'click'
+                });
+                $("#recipes").flip({
+                  trigger: 'click'
+                });
+                $("#chores").flip({
+                  trigger: 'click'
+                });
+                $("#walmart").flip({
+                  trigger: 'click'
+                });
+            }
+            else{
+                $("#pantry").flip({
+                    trigger: 'hover'
+                });
+                $("#recipes").flip({
+                  trigger: 'hover'
+                });
+                $("#chores").flip({
+                  trigger: 'hover'
+                });
+                $("#walmart").flip({
+                  trigger: 'hover'
+                });
+
+            }
+        });
+    </script>
 </body>
 </html>

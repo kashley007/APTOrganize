@@ -14,7 +14,7 @@
         <style>
             html, body {
                 background-color: #fff;
-                background-image: url("../images/front.JPG");
+                background-image: url("../images/bg-home-1.jpg");
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-attachment: fixed;

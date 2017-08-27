@@ -1,0 +1,121 @@
+.selection_tile{
+	border-radius: 15px 50px 30px;
+	border: 3px solid #D3D3D3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: none;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    min-height: 270px;
+    max-width: 300px;
+}
+#pantry_front{
+	background-image: url("../images/pantry.jpg");
+}
+#pantry_back, #recipes_back, #chores_back{
+	background: #F5F8FA;
+	background-image: url("../images/striped.jpg");
+}
+#recipes_front{
+	background-image: url("../images/alfredo.jpg");
+}
+#chores_front{
+	background-image: url("../images/sink.jpg");
+}
+#walmart_front{
+	background-image: url("../images/Walmart_logo2.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80% 100%;
+}
+#walmart_back{
+	background-image: url("../images/Walmart_logo3.png");
+	background-repeat: no-repeat;
+    background-position: center;
+   
+}
+#walmart_logo{
+	margin-bottom: 40px;
+}
+.tile_title{
+	background: #000;
+	margin-top: 106px;
+	min-height: 60px;
+	opacity: 0.4;
+	width: 100%;
+}
+.title{
+	color: #fff;
+	font-size: 32px;
+    font-weight: bold;
+	position: relative;
+    top: 150px;
+    text-align: center;
+    z-index: 100;
+}
+#pantry_count{
+	text-align: center;
+	font-size: 80px;
+	font-weight: bold;
+}
+.tile_info{
+	text-align: center;
+	font-size: 30px;
+}
+.tile_links{
+	text-align: center;
+	font-size: 22px;
+}
+#walmart_logo{
+	width: 100%;
+}
+.next-row{
+	
+	margin-bottom: 60px;
+}
+#browse{
+	margin-top: 120px;
+	font-weight: bold;
+}
+#show{
+	min-height: 300px;
+}
+.itemImage img{
+	width: 100%;
+	padding: 20px;
+}
+.item{
+	margin-bottom: 40px;
+	min-height: 440px;
+	max-height: 440px;
+	background: #fff;
+	border: 2px solid #D3D3D3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.itemName{
+	text-align: center;
+	font-size: 22px;
+}
+.itemPrice{
+	text-align: center;
+}
+#search-input{
+	width: 100%;
+    border: none;
+    background: #fff;
+    min-height: 33px;
+    padding-left: 10px;
+}
+#search-btn{
+	position: absolute;
+    right: 15px;
+    top: 0;
+    border-radius: 0px;
+    background: #007DC6;
+    color: #fff;
+    border: none;
+    min-height: 33px;
+    margin-top: 30px;
+}
+#search-form{
+	margin-top: 30px;
+}
