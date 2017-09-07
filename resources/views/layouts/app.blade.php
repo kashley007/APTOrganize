@@ -13,8 +13,10 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/media.css') }}" rel="stylesheet">
     
     <script src="https://use.fontawesome.com/af83b995c1.js"></script>
+
 </head>
 <body>
     <div id="app">

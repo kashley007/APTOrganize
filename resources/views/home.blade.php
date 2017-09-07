@@ -43,7 +43,7 @@
                 <div class="back">
                     <!-- back content -->
                     <div id="recipes_back" class="selection_tile">
-                        <h2 id="pantry_count">{{$recipe_count}}</h2>
+                        <h2 id="recipe_count">{{$recipe_count}}</h2>
                         @if($recipe_count === 1)
                             <h4 class="tile_info">Recipe</h4>
                         @else
@@ -69,6 +69,14 @@
                 <div class="back">
                     <!-- back content -->
                     <div id="chores_back" class="selection_tile">
+                        <h2 id="chores_count">{{$chore_count}}</h2>
+                        @if($chore_count === 1)
+                            <h4 class="tile_info">Chore</h4>
+                        @else
+                            <h4 class="tile_info">Chores</h4>
+                        @endif
+                        <h4 class="tile_links"><a href="{{ URL::to('/chores/create') }}">Add New</a></h4>
+                        <h4 class="tile_links"><a>View All</a></h4>
 
                     </div>
                 </div>

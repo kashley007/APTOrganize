@@ -20,6 +20,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('pantryItems', 'PantryItemController');
 Route::resource('ingredients', 'IngredientController');
+Route::resource('chores', 'ChoreController');
 Route::resource('recipes', 'RecipeController');
 Route::get('/walmart', 'WalmartController@index');
 Route::get('/walmart/search', 'WalmartController@search');
